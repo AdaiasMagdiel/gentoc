@@ -54,8 +54,8 @@ void processLine(char *string) {
 
 		char c = string[i];
 
-		if (char_isLetter(c)){
-			buffer[ptr++] = char_toLower(c);
+		if (isalpha(c)){
+			buffer[ptr++] = tolower(c);
 		}
 
 		if (c == ' ') {
