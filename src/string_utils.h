@@ -3,6 +3,7 @@
 
 #include <stdbool.h>
 #include <string.h>
+#include <ctype.h>
 
 bool str_startsWith(char *string, char *needle);
 int str_countChar(char *string, char ch);
