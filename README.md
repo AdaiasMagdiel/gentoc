@@ -7,7 +7,6 @@
 - Parses markdown headers.
 - Generates ToC entries in markdown format.
 - Converts headers to lowercase and replaces spaces with hyphens for link compatibility.
-- Supports a variety of Latin characters and converts them appropriately. (WIP)
 
 ## Usage
 
