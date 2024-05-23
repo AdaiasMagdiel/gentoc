@@ -15,11 +15,13 @@ To use `gentoc`, compile the source code and run the executable with a markdown 
 
 ### Compilation
 
-Ensure you have a C compiler installed. You can compile the code using `gcc`:
+A Makefile is provided for convenience. Ensure you have make and a C compiler (such as gcc) installed. You can compile the code using:
 
 ```sh
-gcc -o gentoc gentoc.c
+make
 ```
+
+This will create an executable named `gentoc` on Linux or `gentoc.exe` on Windows.
 
 ### Running
 
